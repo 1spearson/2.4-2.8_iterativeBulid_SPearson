@@ -9,7 +9,7 @@
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
 	   
 	   <!-- import the webpage's stylesheet goes here -->
-	   <link rel="stylesheet" href="css/style3.css"/>
+	   <link rel="stylesheet" href="css/style5.css"/>
 	</head>
 	
 	<!-- main webpage content starts here -->
@@ -18,7 +18,7 @@
 	<div class="grid-container">
 
 		
-				<!--This class is for my navigation/menu-->
+		<!--This class is for my navigation/menu-->
 		<div class="nav">
 	<ul>
 							<li><a href="index.html">Page 1</a></li>
@@ -39,8 +39,37 @@
 		</div>
 	<div class="content">
 			<div class="scroll-area">
-<p> content</p>
-				<center><img src="images/images layout.JPG"alt="Images"/></center>
+
+	<!--image carious -->
+		<div class="slider">
+			<div class="images">
+			<input type="radio" name="slide" id="img1" checked> <!-- Radio is the style of the input buttons. Checked activities the CSS. -->
+			<input type="radio" name="slide" id="img2"> <!--ID controls each separate image through the CSS a # -->
+			<input type="radio" name="slide" id="img3">
+			<input type="radio" name="slide" id="img4">
+			<img src="images/image slider layout2.JPG" class="m1" alt= "Image slider"> <!--  Class Controls each separate image though the CSS using a.-->
+			<img src="images/image slider layout2.JPG" class="m2" alt= "Image slider">
+			<img src="images/image slider layout2.JPG" class="m3" alt= "Image slider">
+			<img src="images/image slider layout2.JPG" class="m4" alt= "Image slider">
+		</div>
+		
+			<!--Setup Class to hold and control Radio input Buttons to move each image. -->
+			<div class="dots">
+			<label for="img1"></label>
+			<label for="img2"></label>
+			<label for="img3"></label>
+			<label for="img4"></label>
+			</div>
+		
+		</div>
+
+				
+				<img src="images/images long layout2.JPG"alt="Images"/> 
+				<img src="images/video layout.JPG"alt="Images"/> <br>
+				
+				<img src="images/images layout.JPG"alt="Images"/>
+				<img src="images/video layout.JPG"alt="Images"/>
+				
 				
 				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
