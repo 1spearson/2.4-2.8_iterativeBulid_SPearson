@@ -1,4 +1,4 @@
-/*CSS files add styling rules to your content */
+/*CSS fjavascript:saveFile('d29ybHd0a2QvMi40KzIuOF9pdGVyYXRpdmVidWxpZF9TUGVhcnNvbi9jc3Mvc3R5bGU1LmNzcw==')iles add styling rules to your content */
 
 body{
 font-family: helvetica, arial, sana-serif;
@@ -20,11 +20,11 @@ color:  #000000;
 }
 
   
-  img {
+ img {
   border-radius: 0%;
 	margin-top: 308px;
-	  margin-right: 0px;
-	  	  margin-left: 400px;
+	  /*margin-right: 200px;*/
+	  	  margin-left: 300px;
 }
 
 .grid-container{
@@ -112,9 +112,9 @@ overflow: auto;
 /* To set up and call a class from the HTML File we use a . in the CS.*/
 	.slider {
 		position: relative;
-		width: 11%; /*adjustment to show each image on carousel. */
+		width: 28%; /*adjustment to show each image on carousel. */
 		overflow: hidden; /* overflow hides next image.*/
-		margin-left: 1500px;
+		margin-left: 1400px;
 		top: 170px;
 	}
 	.images {
