@@ -110,7 +110,7 @@ overflow: auto;
 /* To set up and call a class from the HTML File we use a . in the CS.*/
 	.slider {
 		position: relative;
-		width: 70%; /*adjustment to show each image on carousel. */
+		width: 28%; /*adjustment to show each image on carousel. */
 		overflow: hidden; /* overflow hides next image.*/
 		margin-left: 500px;
 		top: 70px;
