@@ -1,38 +1,94 @@
-/*CSS files add styling rules to your content */
+/*CSS fjavascript:saveFile('d29ybHd0a2QvMi40KzIuOF9pdGVyYXRpdmVidWxpZF9TUGVhcnNvbi9jc3Mvc3R5bGU1LmNzcw==')iles add styling rules to your content */
 
 body{
 font-family: helvetica, arial, sana-serif;
 margin: 0;
 }
 
+
 h1{
 font-style: italic;
-color: #000000;
-{text-align: center;}
+color: #191472;
+
+font-size: 84px;
 }
 h2{
 font-style: italic;
-color:  #ffffff;
+color:  #191472;
+			font-size: 40px;
+}
+h3{
+font-style: italic;
+color:  #191472;
+			font-size: 40px;
+	word-spacing: 2px;
 }
 p{
-font-style: italic;
+font-style: 300px;
 color:  #000000;
+		font-size: 25px;
+padding-left: 200px;
+	padding-right: 270px;
+}
+h4{
+font-style: italic;
+color:  #ffffff;
+			font-size: 15px;
 }
 
-  
-  img {
+
+/*code for TEXT WRAPS starts here*/
+
+/*shape-outside property used for TEXT WRAPS*/
+
+/*Webkit is a layout engine software component for rendering web pages in web browsers to support your website*/
+
+  .textwrap1 {
+	  float: left;/* must use float property on all TEXT WRAPS*/
+	  -webkit-shape-outside: rectangle();/*shape outsides avalible; rectangle, circle, ellipse, polygon*/
+    margin:8;
+	  max-width: 390px;/*size of TEXT WRAP IMAGE*/
+	  width: 20%;/*controlling size of TEXT WRAP*/
+  }
+
+
+
+.image1 {
   border-radius: 0%;
-	margin-top: 308px;
-	  margin-right: 0px;
-	  	  margin-left: 400px;
+	margin-top: 6px; /*icons*/
+	  margin-left: 10px;
+}
+
+.image2 {
+  border-radius: 0%;
+	margin-top: 6px; /*image 1*/
+	  margin-left: -1000px;
+}
+
+.image3 {
+  border-radius: 0%;
+	margin-top: -259px; /*image 2*/
+	  margin-left: -50px;
+}
+
+.image4 {
+  border-radius: 0%;
+	margin-top: -259px; /*image 3e*/
+	  margin-left: 900px;
+}
+.image5 {
+  border-radius: 0%;
+	margin-top: 100px; /*image 4*/
+	  margin-left: 100px;
 }
 
 .grid-container{
 display: grid;
 grid-template-columns: 200px auto;
-grid-template-rows: 80px 400px 2000px 90px;
+grid-template-rows: 100px 550px 2800px 90px;/*100 at school*/
 height: 100vh;
 }
+
 /* CSS for styling my navigation/Menu */
 .nav{
 	box-sizing: border-box;
@@ -42,7 +98,7 @@ height: 100vh;
 }
 ul li{
 	font-family: Arial;
-	font-size: 15px;
+	font-size: 35px;
 	font-weight: bold;
 	display: inline-block;
 	margin-right:-4px;
@@ -50,14 +106,14 @@ ul li{
 	padding: 10px 50px 0px; /* padding for main block menu buttons*/
 }
 ul il:hover{
-	background: #FFD533;
+	background: #FFD748;
 }
 
 /* Hover Colours*/
-a:link{color:#FFFFFF;} /* unvisited link*/
-a:visited{color:#000000;} /*visited link*/
-a:hover{color:#7752ef;} /* mouse over link*/
-a:active{color:#e2c0ff;} /* selected link*/
+a:link{color:#191472;} /* unvisited link*/
+a:visited{color:#191472;} /*visited link*/
+a:hover{color:#D9375A;} /* mouse over link*/
+a:active{color:#ffffff;} /* selected link*/
 
 a{
 	text-decoration: none;
@@ -67,27 +123,26 @@ ul li ul{
 	position: absolute;
 	top: 28px; /* space between each drop-down menu list*/
 	left: 0;
-	width: 170px; /* width of drop-down menu list*/
+	width: 500px; /* width of drop-down menu list*/
 	display: none;
 	visibility:hidden; /* this hides the drop-down menu list*/
 	z-index:1; /* for overlapping divs, bringing i.o the front. like a drop down menu*/
 }
 ul li ul li{
-	 background: #feffe9; /* this is the drop-down menu background color*/
+	 background: #FFD748; /* this is the drop-down menu background color*/
 	display: block;
 }
-ul li ul li:hover{ background: #ffffff;} /* this is the drop-down menu hover on blocks*/
+ul li ul li:hover{ background: #FFD748;} /* this is the drop-down menu hover on blocks*/
 
 ul li:hover ul{
 	 display:block;
 	visibility: visible; /* this makes the droop-down menu visable*/
 }
 
-	
-
+/* styling for navigation ends here*/
 .header{
 box-sizing: border-box;
-background-color: #191472;
+background: url("../images/OUTDOOR ACTIVITES BANNER copy.jpg");
 background-size: cover;
 grid-column-start: 1;
 grid-column-end: span 2;
@@ -109,13 +164,16 @@ overflow: auto;
 }
 /*slide show with images css*/
 	
+/*slide show with images css Start here*/
+	
+
 /* To set up and call a class from the HTML File we use a . in the CS.*/
 	.slider {
 		position: relative;
-		width: 11%; /*adjustment to show each image on carousel. */
+		width: 34%; /*adjustment to show each image on carousel. */
 		overflow: hidden; /* overflow hides next image.*/
-		margin-left: 1500px;
-		top: 170px;
+		margin-left: 750px;
+		top: 10px;
 	}
 	.images {
 		display: flex;
@@ -140,14 +198,14 @@ overflow: auto;
 		height: 20px;
 		width: 20px;
 		border-radius: 50%;
-		border: solid #fff 3px;
+		border: solid #191472 3px;
 		cursor: pointer;
 		transition: all 0.16s ease; /* timing tranition to show next image.*/
 		margin: 5px;
 	}
-	.dots label:hover {background: #fff;}
+	.dots label:hover {background: #D9375A;}
 	   #img1:checked ~ .m1{ /*~ (tilde) is a selector used to select each"m" element following checked. */
-		margin-left: 0;
+		margin-left: 0%;
 	}
 		#img2:checked ~ .m2{
 		margin-left: -100%;
@@ -158,7 +216,7 @@ overflow: auto;
 		#img4:checked ~ .m4{
 		margin-left: -300%;
 	}
-	
+
 	/*slide show with images css Ends here*/
 
 /*css for styleing my back to top button Starts here*/
@@ -185,3 +243,4 @@ overflow: auto;
 background-color: #191472; /*blue*/
 grid-column-end: span 2;
 }
+
